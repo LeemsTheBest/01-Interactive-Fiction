@@ -1,0 +1,1653 @@
+{
+  "passages": [
+    {
+      "text": "You find yourself standing at the gates of the Bellfrey Mansion. The gates are a golden material, although due to the amount of weathering, it can only be assumed to be a cheap brass imitation.\n\n[[Rattle the gates->Shook Gates]]\n[[Press the buzzer->Pressed Buzzer]]\n[[Check the outer walls->Courtyard Walls (Exterior)]]",
+      "links": [
+        {
+          "name": "Rattle the gates",
+          "link": "Shook Gates",
+          "pid": "2"
+        },
+        {
+          "name": "Press the buzzer",
+          "link": "Pressed Buzzer",
+          "pid": "3"
+        },
+        {
+          "name": "Check the outer walls",
+          "link": "Courtyard Walls (Exterior)",
+          "pid": "4"
+        }
+      ],
+      "name": "Mansion Gates (Outside)",
+      "pid": "1",
+      "position": {
+        "x": "2910",
+        "y": "1588"
+      },
+      "tags": [
+        "Startup"
+      ]
+    },
+    {
+      "text": "You rattle the gates, but they're locked shut. You notice the bars are spaced evenly enough to climb to the top. \n\nThe tops are lined with decorative tips that, while surely dulled by the weather, would nonetheless be an unpleasant experience for your abdomen if not careful.\n\n[[Try to climb the gates->Climbing Gates]]\n[[Try something else->Mansion Gates (Outside)]] ",
+      "links": [
+        {
+          "name": "Try to climb the gates",
+          "link": "Climbing Gates",
+          "pid": "5"
+        },
+        {
+          "name": "Try something else",
+          "link": "Mansion Gates (Outside)",
+          "pid": "1"
+        }
+      ],
+      "name": "Shook Gates",
+      "pid": "2",
+      "position": {
+        "x": "2908",
+        "y": "1475"
+      }
+    },
+    {
+      "text": "You press the old buzzer, and the sound of raspy and failing electronics are amplified by the grime covered speaker. It dies halfway through its miserable electric swan song. You're sure it didn't work.\n\n[[Try something else->Mansion Gates (Outside)]] ",
+      "links": [
+        {
+          "name": "Try something else",
+          "link": "Mansion Gates (Outside)",
+          "pid": "1"
+        }
+      ],
+      "name": "Pressed Buzzer",
+      "pid": "3",
+      "position": {
+        "x": "3049",
+        "y": "1499"
+      }
+    },
+    {
+      "text": "The walls to the left and right of the gate are made of what appears to be old brick and concrete, and are not well kept. Vines, shrubs, and wild grass have found their place along the foundation.\n\n[[Explore the Courtyard Walls to the left->Courtyard Wall (Left Exterior 1)]]\n[[Explore the Courtyard Walls to the right->Courtyard Wall Right Exterior (1)]]",
+      "links": [
+        {
+          "name": "Explore the Courtyard Walls to the left",
+          "link": "Courtyard Wall (Left Exterior 1)",
+          "pid": "9"
+        },
+        {
+          "name": "Explore the Courtyard Walls to the right",
+          "link": "Courtyard Wall Right Exterior (1)",
+          "pid": "10"
+        }
+      ],
+      "name": "Courtyard Walls (Exterior)",
+      "pid": "4",
+      "position": {
+        "x": "2914",
+        "y": "1745"
+      }
+    },
+    {
+      "text": "Taking a deep breath, you grab onto the slick brass bars and attempt to make your way up. Years of tree climbing in the forests to the east of your home have prepared you for this task, although the rough bark of the black poplar trees is quite different than the grimy metal you find yourself desperately gripping. \n\nYou notice your right hand's grip beginning to slip, and you realize you must make a decision about your next move quickly.\n\n[[Reach for the top of the gates->Near the top of the Gates]]\n[[Grab a different bar->Readjusting yourself]]\n[[Climb back down->Climbing Down]]",
+      "links": [
+        {
+          "name": "Reach for the top of the gates",
+          "link": "Near the top of the Gates",
+          "pid": "6"
+        },
+        {
+          "name": "Grab a different bar",
+          "link": "Readjusting yourself",
+          "pid": "7"
+        },
+        {
+          "name": "Climb back down",
+          "link": "Climbing Down",
+          "pid": "8"
+        }
+      ],
+      "name": "Climbing Gates",
+      "pid": "5",
+      "position": {
+        "x": "2903",
+        "y": "1357"
+      }
+    },
+    {
+      "text": "You reach for the top of the gates, and use all of your strength to pull yourself up. You are at chest level with the decorative spikes, which looked far smaller from the ground.\n\n[[Put your foot on the top bar->GateStand]]\n[[Pull yourself up and swing both legs over->Told you so...]]",
+      "links": [
+        {
+          "name": "Put your foot on the top bar",
+          "link": "GateStand",
+          "pid": "18"
+        },
+        {
+          "name": "Pull yourself up and swing both legs over",
+          "link": "Told you so...",
+          "pid": "19"
+        }
+      ],
+      "name": "Near the top of the Gates",
+      "pid": "6",
+      "position": {
+        "x": "2915",
+        "y": "1201"
+      }
+    },
+    {
+      "text": "Trying to fix your grip, you readjust yourself and attempt to grab back onto the same bar. \n\nNo matter how many times you try, the brass bars and layers of dirt and buildup make it impossible to get a solid grip. You've managed to buy yourself some more time to think, but you still face an important decision.\n\n[[Reach for the top->Near the top of the Gates]] \n[[Climb back down->Climbing Down]] ",
+      "links": [
+        {
+          "name": "Reach for the top",
+          "link": "Near the top of the Gates",
+          "pid": "6"
+        },
+        {
+          "name": "Climb back down",
+          "link": "Climbing Down",
+          "pid": "8"
+        }
+      ],
+      "name": "Readjusting yourself",
+      "pid": "7",
+      "position": {
+        "x": "3066",
+        "y": "1215"
+      }
+    },
+    {
+      "text": "Although you see the top of the gates in reach, you come to terms with the futility of your trial. You reluctantly climb back down the gates, and decide to take a different approach.\n\n[[Rethink your options->Mansion Gates (Outside)]] ",
+      "links": [
+        {
+          "name": "Rethink your options",
+          "link": "Mansion Gates (Outside)",
+          "pid": "1"
+        }
+      ],
+      "name": "Climbing Down",
+      "pid": "8",
+      "position": {
+        "x": "2672",
+        "y": "1366"
+      }
+    },
+    {
+      "text": "Walking along the side, you notice that vines have grown up the side of the wall. It's possible that there might be something on the otherside.\n\n[[Pull the vines->Climbing Vine]]\n[[Keep walking->Courtyard Wall (Left Exterior 2)]] ",
+      "links": [
+        {
+          "name": "Pull the vines",
+          "link": "Climbing Vine",
+          "pid": "11"
+        },
+        {
+          "name": "Keep walking",
+          "link": "Courtyard Wall (Left Exterior 2)",
+          "pid": "12"
+        }
+      ],
+      "name": "Courtyard Wall (Left Exterior 1)",
+      "pid": "9",
+      "position": {
+        "x": "2346",
+        "y": "1677"
+      }
+    },
+    {
+      "text": "Walking along the right wall, you notice that the brickwork is somewhat sloppy. Eventually, you come to an area where there isn't even mortar between the bricks.\n\n[[Push on the bricks->Courtyard Wall (Right Interior 1)]]\n[[Keep walking->Courtyard Wall Right Exterior 2]]",
+      "links": [
+        {
+          "name": "Push on the bricks",
+          "link": "Courtyard Wall (Right Interior 1)",
+          "pid": "30"
+        },
+        {
+          "name": "Keep walking",
+          "link": "Courtyard Wall Right Exterior 2",
+          "pid": "31"
+        }
+      ],
+      "name": "Courtyard Wall Right Exterior (1)",
+      "pid": "10",
+      "position": {
+        "x": "3534",
+        "y": "1724"
+      }
+    },
+    {
+      "text": "You pull on the vines, and there's some solid resistance. You reckon that you may be able to climb up the top and over the wall.\n\n[[Climb the vines->Climbing Vine 2]]\n[[Keep walking->Courtyard Wall (Left Exterior 2)]] ",
+      "links": [
+        {
+          "name": "Climb the vines",
+          "link": "Climbing Vine 2",
+          "pid": "13"
+        },
+        {
+          "name": "Keep walking",
+          "link": "Courtyard Wall (Left Exterior 2)",
+          "pid": "12"
+        }
+      ],
+      "name": "Climbing Vine",
+      "pid": "11",
+      "position": {
+        "x": "2225",
+        "y": "1568"
+      }
+    },
+    {
+      "text": "You continue to walk around the brick walls until you finally come to the end of the wall. It meets another wall, which appears to run on for a long while.\n\n[[Follow the wall->Far Left Courtyard Wall (Exterior)]]\n[[Turn back->Courtyard Wall (Left Exterior 1)]] ",
+      "links": [
+        {
+          "name": "Follow the wall",
+          "link": "Far Left Courtyard Wall (Exterior)",
+          "pid": "25"
+        },
+        {
+          "name": "Turn back",
+          "link": "Courtyard Wall (Left Exterior 1)",
+          "pid": "9"
+        }
+      ],
+      "name": "Courtyard Wall (Left Exterior 2)",
+      "pid": "12",
+      "position": {
+        "x": "2009",
+        "y": "1671"
+      }
+    },
+    {
+      "text": "You grab onto the vines and begin to climb up the wall of vines. You can see the top of the wall.\n\n[[Reach for the top of the wall->WallTop]]\n[[Climb down and keep walking->Courtyard Wall (Left Exterior 2)]] ",
+      "links": [
+        {
+          "name": "Reach for the top of the wall",
+          "link": "WallTop",
+          "pid": "14"
+        },
+        {
+          "name": "Climb down and keep walking",
+          "link": "Courtyard Wall (Left Exterior 2)",
+          "pid": "12"
+        }
+      ],
+      "name": "Climbing Vine 2",
+      "pid": "13",
+      "position": {
+        "x": "2224",
+        "y": "1431"
+      }
+    },
+    {
+      "text": "You grab the top of the wall, and manage to pull yourself up on the wall. You throw your leg over the side, and sit on the edge of the wall.\n\nYou can see the mansion courtyard. Directly in front of you, there's an unkempt garden, covered in shrubs, weeds, and dying grass. To your left, you can see along the courtyard wall, where it meets the left most courtyard wall. To the right, you can see the path behind the gate leading up to the mansion's front door.\n\n[[Climb down and explore the garden->Mansion Garden]]\n[[Climb down and follow the rest of the wall->Courtyard Wall Left Interior (Near Walls)]]\n[[Climb down and go to the main path behind the gate->Path from the Gate]]\n",
+      "links": [
+        {
+          "name": "Climb down and explore the garden",
+          "link": "Mansion Garden",
+          "pid": "15"
+        },
+        {
+          "name": "Climb down and follow the rest of the wall",
+          "link": "Courtyard Wall Left Interior (Near Walls)",
+          "pid": "16"
+        },
+        {
+          "name": "Climb down and go to the main path behind the gate",
+          "link": "Path from the Gate",
+          "pid": "17"
+        }
+      ],
+      "name": "WallTop",
+      "pid": "14",
+      "position": {
+        "x": "2228",
+        "y": "1302"
+      }
+    },
+    {
+      "text": "Before you is what appears to have been the mansion's garden. The hedges are untrimmed, and weeds grow between every slab of concrete decoration. What used to be the fountain contains a statue of a small cherub, and is filled with dirty water and last autumn's leaves.\n\n[[Explore around the hedges->Hedges]]\n[[Examine the fountain->Fountain]]\n[[Leave->Courtyard Wall Left Interior (R)]]",
+      "links": [
+        {
+          "name": "Explore around the hedges",
+          "link": "Hedges",
+          "pid": "26"
+        },
+        {
+          "name": "Examine the fountain",
+          "link": "Fountain",
+          "pid": "27"
+        },
+        {
+          "name": "Leave",
+          "link": "Courtyard Wall Left Interior (R)",
+          "pid": "28"
+        }
+      ],
+      "name": "Mansion Garden",
+      "pid": "15",
+      "position": {
+        "x": "2232",
+        "y": "1010"
+      }
+    },
+    {
+      "text": "Exploring closer to the walls, you find that all that remains here is dead grass, with dandelions dotting here and there. This may have been part of the larger garden at one point, but now it lays barren.\n\n[[Explore the Garden->Mansion Garden]] \n[[Explore the other side of the courtyard->Path from the Gate]] ",
+      "links": [
+        {
+          "name": "Explore the Garden",
+          "link": "Mansion Garden",
+          "pid": "15"
+        },
+        {
+          "name": "Explore the other side of the courtyard",
+          "link": "Path from the Gate",
+          "pid": "17"
+        }
+      ],
+      "name": "Courtyard Wall Left Interior (Near Walls)",
+      "pid": "16",
+      "position": {
+        "x": "2001",
+        "y": "1320"
+      }
+    },
+    {
+      "text": "Before you lies a dusty path that leads to the front of the mansion. It's reminiscent of traditional European architecture, although it looks to be in a state of disrepair. It seems that no one has been here for quite some time.\n\n[[Walk up the path to the door->Mansion Door]]\n[[Explore the garden to the left->Mansion Garden]]\n[[Explore the field to the right->Right Field]]",
+      "links": [
+        {
+          "name": "Walk up the path to the door",
+          "link": "Mansion Door",
+          "pid": "21"
+        },
+        {
+          "name": "Explore the garden to the left",
+          "link": "Mansion Garden",
+          "pid": "15"
+        },
+        {
+          "name": "Explore the field to the right",
+          "link": "Right Field",
+          "pid": "20"
+        }
+      ],
+      "name": "Path from the Gate",
+      "pid": "17",
+      "position": {
+        "x": "2901",
+        "y": "796"
+      }
+    },
+    {
+      "text": "You manage to get a solid footing on the top bar, and after pulling your other leg up, you can safely balance and crouch. Perching on the top bar, you have a great view of the entire mansion courtyard.\n\nDirectly in front of you is a path to the mansion. To the left, there is an unkempt and dying garden. To the right, a field of dying grass and a lone shed rests.\n\n[[Climb down and follow the mansion path->Path from the Gate]]\n[[Climb down and explore to the right->Right Field]]\n[[Climb down and explore to the left->Mansion Garden]]",
+      "links": [
+        {
+          "name": "Climb down and follow the mansion path",
+          "link": "Path from the Gate",
+          "pid": "17"
+        },
+        {
+          "name": "Climb down and explore to the right",
+          "link": "Right Field",
+          "pid": "20"
+        },
+        {
+          "name": "Climb down and explore to the left",
+          "link": "Mansion Garden",
+          "pid": "15"
+        }
+      ],
+      "name": "GateStand",
+      "pid": "18",
+      "position": {
+        "x": "2909",
+        "y": "1036"
+      }
+    },
+    {
+      "text": "You try swinging both legs over, but you somehow underestimate the fact that the decorations are really quite attracted to piercing your stomach.\n\nYou get the feeling you were warned about something like this happening, and that whomever warned you is giving you a second chance, almost like time travel.\n\n[[I want a second chance please->Near the top of the Gates]] ",
+      "links": [
+        {
+          "name": "I want a second chance please",
+          "link": "Near the top of the Gates",
+          "pid": "6"
+        }
+      ],
+      "name": "Told you so...",
+      "pid": "19",
+      "position": {
+        "x": "3047",
+        "y": "1097"
+      }
+    },
+    {
+      "text": "You are standing in a field of dead grass. You can see the path to the mansion, a shed, and a garden in the distance.\n\n[[Explore the path->Path from the Gate]] \n[[Explore the shed->ShedOut1FAKE]] \n[[Explore the garden->Mansion Garden]] ",
+      "links": [
+        {
+          "name": "Explore the path",
+          "link": "Path from the Gate",
+          "pid": "17"
+        },
+        {
+          "name": "Explore the shed",
+          "link": "ShedOut1FAKE",
+          "pid": "35"
+        },
+        {
+          "name": "Explore the garden",
+          "link": "Mansion Garden",
+          "pid": "15"
+        }
+      ],
+      "name": "Right Field",
+      "pid": "20",
+      "position": {
+        "x": "3365",
+        "y": "1187"
+      }
+    },
+    {
+      "text": "Walking up to the large, wooden doors, you notice most of the material has rotted away. You pull the dirty brass handles. The door is locked.\n\n[[Rattle the door->Rattler]]\n[[Hit the door->Hitting the Door]]\n[[Explore somewhere else->Path from the Gate]] ",
+      "links": [
+        {
+          "name": "Rattle the door",
+          "link": "Rattler",
+          "pid": "22"
+        },
+        {
+          "name": "Hit the door",
+          "link": "Hitting the Door",
+          "pid": "23"
+        },
+        {
+          "name": "Explore somewhere else",
+          "link": "Path from the Gate",
+          "pid": "17"
+        }
+      ],
+      "name": "Mansion Door",
+      "pid": "21",
+      "position": {
+        "x": "2900",
+        "y": "657"
+      }
+    },
+    {
+      "text": "You rattle the door handle back and forth vigorously, hoping to make some sort of progress. However, the door refuses to budge, despite its worn condition.\n\n[[Try something else->Door is locked]]",
+      "links": [
+        {
+          "name": "Try something else",
+          "link": "Door is locked",
+          "pid": "24"
+        }
+      ],
+      "name": "Rattler",
+      "pid": "22",
+      "position": {
+        "x": "3037",
+        "y": "664"
+      }
+    },
+    {
+      "text": "You reel back, and pound on the rotting wooden door with your fist. It comes loose a bit. Your hand kind of hurts now.\n\n[[Try something else->Your hand hurts now...]]",
+      "links": [
+        {
+          "name": "Try something else",
+          "link": "Your hand hurts now...",
+          "pid": "29"
+        }
+      ],
+      "name": "Hitting the Door",
+      "pid": "23",
+      "position": {
+        "x": "2902",
+        "y": "529"
+      }
+    },
+    {
+      "text": "The door remains locked, and the handles don't seem to budge at all. What now?\n\n[[Hit the door->Hitting the Door]]\n[[Explore somewhere else->Path from the Gate]] ",
+      "links": [
+        {
+          "name": "Hit the door",
+          "link": "Hitting the Door",
+          "pid": "23"
+        },
+        {
+          "name": "Explore somewhere else",
+          "link": "Path from the Gate",
+          "pid": "17"
+        }
+      ],
+      "name": "Door is locked",
+      "pid": "24",
+      "position": {
+        "x": "3034",
+        "y": "534"
+      }
+    },
+    {
+      "text": "You follow the wall, coming to where it meets the mansion. There appears to be nothing out of the ordinary here.\n\n[[Turn back->Courtyard Wall (Left Exterior 2)]] ",
+      "links": [
+        {
+          "name": "Turn back",
+          "link": "Courtyard Wall (Left Exterior 2)",
+          "pid": "12"
+        }
+      ],
+      "name": "Far Left Courtyard Wall (Exterior)",
+      "pid": "25",
+      "position": {
+        "x": "1786",
+        "y": "1667"
+      }
+    },
+    {
+      "text": "You examine the hedges. They are extremely unkept, and likely haven't been trimmed in many years. There isn't much else but weeds and dandelions.\n\n[[Return to the garden->Mansion Garden]] ",
+      "links": [
+        {
+          "name": "Return to the garden",
+          "link": "Mansion Garden",
+          "pid": "15"
+        }
+      ],
+      "name": "Hedges",
+      "pid": "26",
+      "position": {
+        "x": "1998",
+        "y": "1138"
+      }
+    },
+    {
+      "text": "You are standing near the fountain. It's made of some sort of stone or marble material, although it's filled with small cracks on the sides. It's full of murky water and dead leaves.\n\n[[Drink the water->Drinking Dirty Water]]\n[[Reach into the water->Switch]]\n[[Explore somewhere else->Mansion Garden]] ",
+      "links": [
+        {
+          "name": "Drink the water",
+          "link": "Drinking Dirty Water",
+          "pid": "50"
+        },
+        {
+          "name": "Reach into the water",
+          "link": "Switch",
+          "pid": "51"
+        },
+        {
+          "name": "Explore somewhere else",
+          "link": "Mansion Garden",
+          "pid": "15"
+        }
+      ],
+      "name": "Fountain",
+      "pid": "27",
+      "position": {
+        "x": "1978",
+        "y": "974"
+      }
+    },
+    {
+      "text": "You can see the mansion courtyard. Directly in front of you, there's an unkempt garden, covered in shrubs, weeds, and dying grass. To your left, you can see along the courtyard wall, where it meets the left most courtyard wall. To the right, you can see the path behind the gate leading up to the mansion's front door.\n\n[[Explore the garden->Mansion Garden]]\n[[Follow the rest of the wall->Courtyard Wall Left Interior (Near Walls)]]\n[[Go to the main path behind the gate->Path from the Gate]]\n",
+      "links": [
+        {
+          "name": "Explore the garden",
+          "link": "Mansion Garden",
+          "pid": "15"
+        },
+        {
+          "name": "Follow the rest of the wall",
+          "link": "Courtyard Wall Left Interior (Near Walls)",
+          "pid": "16"
+        },
+        {
+          "name": "Go to the main path behind the gate",
+          "link": "Path from the Gate",
+          "pid": "17"
+        }
+      ],
+      "name": "Courtyard Wall Left Interior (R)",
+      "pid": "28",
+      "position": {
+        "x": "2462",
+        "y": "1291"
+      }
+    },
+    {
+      "text": "Your hand still hurts from beating on the door like an ape, so you decide against rattling it any further. \n\n[[Accept your losses and walk away from the mansion door->Path from the Gate]] ",
+      "links": [
+        {
+          "name": "Accept your losses and walk away from the mansion door",
+          "link": "Path from the Gate",
+          "pid": "17"
+        }
+      ],
+      "name": "Your hand hurts now...",
+      "pid": "29",
+      "position": {
+        "x": "2761",
+        "y": "544"
+      }
+    },
+    {
+      "text": "You push on the bricks, and the wall tumbles over into the courtyard. Directly in front of you lies an old but sturdy looking shed. Behind that is a field of dead grass, and to your left is what appears to be a path to the mansion's entrance.\n\n[[Explore the shed->ShedOut1FAKE]]\n[[Explore the path->Path from the Gate]] \n[[Explore the field->Right Field]] ",
+      "links": [
+        {
+          "name": "Explore the shed",
+          "link": "ShedOut1FAKE",
+          "pid": "35"
+        },
+        {
+          "name": "Explore the path",
+          "link": "Path from the Gate",
+          "pid": "17"
+        },
+        {
+          "name": "Explore the field",
+          "link": "Right Field",
+          "pid": "20"
+        }
+      ],
+      "name": "Courtyard Wall (Right Interior 1)",
+      "pid": "30",
+      "position": {
+        "x": "3515",
+        "y": "1515"
+      }
+    },
+    {
+      "text": "You continue to walk along the wall, and the brickwork doesn't improve, although there aren't any spaces without mortar at the very least. Eventually, you come to the outer corner of the courtyard walls.\n\n[[Continue to follow the wall->Far Right Courtyard Wall 1]]\n[[Turn back->Courtyard Wall Right Exterior (1)]] ",
+      "links": [
+        {
+          "name": "Continue to follow the wall",
+          "link": "Far Right Courtyard Wall 1",
+          "pid": "32"
+        },
+        {
+          "name": "Turn back",
+          "link": "Courtyard Wall Right Exterior (1)",
+          "pid": "10"
+        }
+      ],
+      "name": "Courtyard Wall Right Exterior 2",
+      "pid": "31",
+      "position": {
+        "x": "3883",
+        "y": "1714"
+      }
+    },
+    {
+      "text": "Continuing to follow the courtyard walls, you come across another gate. It appears to be of the same material as the front gate, although it is much smaller and looks less secure.\n\n[[Rattle the gates->RightGateShake]]\n[[Continue walking->Right Mansion Wall]]\n[[Turn back->Courtyard Wall Right Exterior 2]] ",
+      "links": [
+        {
+          "name": "Rattle the gates",
+          "link": "RightGateShake",
+          "pid": "33"
+        },
+        {
+          "name": "Continue walking",
+          "link": "Right Mansion Wall",
+          "pid": "34"
+        },
+        {
+          "name": "Turn back",
+          "link": "Courtyard Wall Right Exterior 2",
+          "pid": "31"
+        }
+      ],
+      "name": "Far Right Courtyard Wall 1",
+      "pid": "32",
+      "position": {
+        "x": "3851",
+        "y": "1378"
+      }
+    },
+    {
+      "text": "You rattle the gates, and the shoddy hinges come off easily. You take the gate door and lay it gently on the side of the wall. \n\nIn front of you, you can see what appears to be a field of dead grass, and some sort of mansion entrance. There appears to be something green in the distance, although it's hard to tell from here.\n\n[[Explore the field->Right Field]] \n[[Explore the entrance->Path from the Gate]] \n[[Explore the far away greenery->Mansion Garden]] ",
+      "links": [
+        {
+          "name": "Explore the field",
+          "link": "Right Field",
+          "pid": "20"
+        },
+        {
+          "name": "Explore the entrance",
+          "link": "Path from the Gate",
+          "pid": "17"
+        },
+        {
+          "name": "Explore the far away greenery",
+          "link": "Mansion Garden",
+          "pid": "15"
+        }
+      ],
+      "name": "RightGateShake",
+      "pid": "33",
+      "position": {
+        "x": "3647",
+        "y": "1061"
+      }
+    },
+    {
+      "text": "You continue along the courtyard wall, arriving at where it meets the mansion itself. The mansion walls are tall, and the top of the foundation is at about eye level. There doesn't look to be any structural imperfections, nor any access points you can reach.\n\n[[Continue walking->Right Mansion Wall (2)]]\n[[Turn back->Far Right Courtyard Wall 1]] ",
+      "links": [
+        {
+          "name": "Continue walking",
+          "link": "Right Mansion Wall (2)",
+          "pid": "36"
+        },
+        {
+          "name": "Turn back",
+          "link": "Far Right Courtyard Wall 1",
+          "pid": "32"
+        }
+      ],
+      "name": "Right Mansion Wall",
+      "pid": "34",
+      "position": {
+        "x": "3886",
+        "y": "1061"
+      }
+    },
+    {
+      "text": "You walk up to the shed. The shed has been placed on concrete, although the concrete looks to be in decent shape compared to everything else you've seen. \n\n[[Enter the shed->Inside the Shed]]\n[[Explore somewhere else->Right Field]] ",
+      "links": [
+        {
+          "name": "Enter the shed",
+          "link": "Inside the Shed",
+          "pid": "44"
+        },
+        {
+          "name": "Explore somewhere else",
+          "link": "Right Field",
+          "pid": "20"
+        }
+      ],
+      "name": "ShedOut1FAKE",
+      "pid": "35",
+      "position": {
+        "x": "3546",
+        "y": "1285"
+      }
+    },
+    {
+      "text": "You continue to walk along the mansion wall, eventually coming to a large ravine. It appears that the mansion has been built over it, but it stops you from going around the house any further.\n\n[[Examine the ravine->Ravine]]\n[[Turn back->Right Mansion Wall]] ",
+      "links": [
+        {
+          "name": "Examine the ravine",
+          "link": "Ravine",
+          "pid": "37"
+        },
+        {
+          "name": "Turn back",
+          "link": "Right Mansion Wall",
+          "pid": "34"
+        }
+      ],
+      "name": "Right Mansion Wall (2)",
+      "pid": "36",
+      "position": {
+        "x": "3861",
+        "y": "813"
+      }
+    },
+    {
+      "text": "The ravine looks to be about 20 or so feet deep, with plenty of ledges to use to climb down. You wonder how different rock climbing can be than the tree climbing you mastered in your childhood, and assume that since it all boils down to climbing, you should be fine.\n\n[[Start climbing down the ravine->Ravine (Lower)]]\n[[Look for a different point of entry->Ravine (2)]]",
+      "links": [
+        {
+          "name": "Start climbing down the ravine",
+          "link": "Ravine (Lower)",
+          "pid": "38"
+        },
+        {
+          "name": "Look for a different point of entry",
+          "link": "Ravine (2)",
+          "pid": "39"
+        }
+      ],
+      "name": "Ravine",
+      "pid": "37",
+      "position": {
+        "x": "4074",
+        "y": "820"
+      }
+    },
+    {
+      "text": "You slowly descend the wall of the ravine, carefully examining your foot placement and handholds. You arrive safely at the bottom of the ravine, where the light seems so much further away.\n\n[[Continue on->Ravine (Lower) (3)]] ",
+      "links": [
+        {
+          "name": "Continue on",
+          "link": "Ravine (Lower) (3)",
+          "pid": "41"
+        }
+      ],
+      "name": "Ravine (Lower)",
+      "pid": "38",
+      "position": {
+        "x": "4062",
+        "y": "651"
+      }
+    },
+    {
+      "text": "You walk along the side of the ravine, further away from the mansion. You begin to notice that towards the end of the ravine, it begins to slope up and meet the ground. The grass has been patted down here, and is strangely well kept. \n\n[[Enter the ravine->Ravine Lower (Steps)]]\n[[Turn back->Ravine]] ",
+      "links": [
+        {
+          "name": "Enter the ravine",
+          "link": "Ravine Lower (Steps)",
+          "pid": "40"
+        },
+        {
+          "name": "Turn back",
+          "link": "Ravine",
+          "pid": "37"
+        }
+      ],
+      "name": "Ravine (2)",
+      "pid": "39",
+      "position": {
+        "x": "4274",
+        "y": "813"
+      }
+    },
+    {
+      "text": "Stepping down into the ravine, you truly are able to notice how well kept everything seems, at least compared to the rest of the state of the mansion. Dirt has been piled up into equal sized steps, and it's suspiciously narrow to be a natural occurence. \n\n[[Continue down the ravine->Ravine (Lower) (3)]]",
+      "links": [
+        {
+          "name": "Continue down the ravine",
+          "link": "Ravine (Lower) (3)",
+          "pid": "41"
+        }
+      ],
+      "name": "Ravine Lower (Steps)",
+      "pid": "40",
+      "position": {
+        "x": "4269",
+        "y": "649"
+      }
+    },
+    {
+      "text": "You come to where you thought the ravine meets the foundation, only to find that there is a small space below the foundation and the bottom of the ravine. It looks to be about 4 ft tall, maybe a foot and a half or so shorter than you.\n\n[[Peer into the space->Crawlspace Look]]\n[[Exit the ravine->Ravine]]",
+      "links": [
+        {
+          "name": "Peer into the space",
+          "link": "Crawlspace Look",
+          "pid": "42"
+        },
+        {
+          "name": "Exit the ravine",
+          "link": "Ravine",
+          "pid": "37"
+        }
+      ],
+      "name": "Ravine (Lower) (3)",
+      "pid": "41",
+      "position": {
+        "x": "3860",
+        "y": "633"
+      }
+    },
+    {
+      "text": "You crouch down and peer into the space. All you can see is darkness, but it appears to be a tunnel more so than anything.\n\n[[Enter the tunnel->Air Intake (Ravine Entrance)]]\n[[Exit the ravine->Ravine]] ",
+      "links": [
+        {
+          "name": "Enter the tunnel",
+          "link": "Air Intake (Ravine Entrance)",
+          "pid": "43"
+        },
+        {
+          "name": "Exit the ravine",
+          "link": "Ravine",
+          "pid": "37"
+        }
+      ],
+      "name": "Crawlspace Look",
+      "pid": "42",
+      "position": {
+        "x": "3673",
+        "y": "643"
+      }
+    },
+    {
+      "text": "Crouched, you walk through the tunnel, hitting your head a couple times on the ceiling. After walking for a bit, you can see a bright light coming from somewhere at the end of the tunnel.\n\n[[Go to the light->An Odd Room]]\n[[Turn back->Ravine (Lower) (3)]] ",
+      "links": [
+        {
+          "name": "Go to the light",
+          "link": "An Odd Room",
+          "pid": "81"
+        },
+        {
+          "name": "Turn back",
+          "link": "Ravine (Lower) (3)",
+          "pid": "41"
+        }
+      ],
+      "name": "Air Intake (Ravine Entrance)",
+      "pid": "43",
+      "position": {
+        "x": "3555",
+        "y": "648"
+      }
+    },
+    {
+      "text": "You are in a large shed, although that's to be expected for a mansion. Surprisingly, there's not much inside. A sign labelled -Garden- hangs over an empty tool board. The floor is made of wood. A couple feet away from you, on the ground is what looks like a door handle.\n\n[[Explore the rest of the shed->Inside the Shed (2)]]\n[[Examine the handle->Examining the Handle]]\n[[Leave the shed->Right Field]] ",
+      "links": [
+        {
+          "name": "Explore the rest of the shed",
+          "link": "Inside the Shed (2)",
+          "pid": "45"
+        },
+        {
+          "name": "Examine the handle",
+          "link": "Examining the Handle",
+          "pid": "46"
+        },
+        {
+          "name": "Leave the shed",
+          "link": "Right Field",
+          "pid": "20"
+        }
+      ],
+      "name": "Inside the Shed",
+      "pid": "44",
+      "position": {
+        "x": "3739",
+        "y": "1205"
+      }
+    },
+    {
+      "text": "You walk further into the shed. There's an empty plastic bin labelled -Fountain-. There's no door on this side.\n\n[[Go back->Inside the Shed]] ",
+      "links": [
+        {
+          "name": "Go back",
+          "link": "Inside the Shed",
+          "pid": "44"
+        }
+      ],
+      "name": "Inside the Shed (2)",
+      "pid": "45",
+      "position": {
+        "x": "4009",
+        "y": "1199"
+      }
+    },
+    {
+      "text": "You kneel down and look at the handle. It seems to be brass, and looks to be in the same condition as the gates.\n\n[[Pull on the handle->Odd Trapdoor]]\n[[Return to the shed->Inside the Shed]]",
+      "links": [
+        {
+          "name": "Pull on the handle",
+          "link": "Odd Trapdoor",
+          "pid": "47"
+        },
+        {
+          "name": "Return to the shed",
+          "link": "Inside the Shed",
+          "pid": "44"
+        }
+      ],
+      "name": "Examining the Handle",
+      "pid": "46",
+      "position": {
+        "x": "4033",
+        "y": "1378"
+      }
+    },
+    {
+      "text": "You pull on the handle. The slab of wood it's attached to swings up, revealing nothing but concrete.\n\n[[Knock on the concrete->Hollow Knock]]\n[[Return to the shed->Inside the Shed]] ",
+      "links": [
+        {
+          "name": "Knock on the concrete",
+          "link": "Hollow Knock",
+          "pid": "48"
+        },
+        {
+          "name": "Return to the shed",
+          "link": "Inside the Shed",
+          "pid": "44"
+        }
+      ],
+      "name": "Odd Trapdoor",
+      "pid": "47",
+      "position": {
+        "x": "4231",
+        "y": "1384"
+      }
+    },
+    {
+      "text": "You knock on the concrete. It's definitely solid in some places, but a hollow echo reverberates when you hit certain spots.\n\n[[Keep knocking->Hollow Knock (2)]]\n[[Return to the shed->Inside the Shed]] ",
+      "links": [
+        {
+          "name": "Keep knocking",
+          "link": "Hollow Knock (2)",
+          "pid": "49"
+        },
+        {
+          "name": "Return to the shed",
+          "link": "Inside the Shed",
+          "pid": "44"
+        }
+      ],
+      "name": "Hollow Knock",
+      "pid": "48",
+      "position": {
+        "x": "4231",
+        "y": "1534"
+      }
+    },
+    {
+      "text": "You continue to knock. Whenever you hit the sides, it's definitely solid. However, you find that hitting the middle produces the hollow sound. \n\nYou continue knocking, but nothing else really happens.\n\n[[Return to the shed->Inside the Shed]] ",
+      "links": [
+        {
+          "name": "Return to the shed",
+          "link": "Inside the Shed",
+          "pid": "44"
+        }
+      ],
+      "name": "Hollow Knock (2)",
+      "pid": "49",
+      "position": {
+        "x": "4231",
+        "y": "1684"
+      }
+    },
+    {
+      "text": "You cup your hands and drink some of the fountain's water. It tastes gross.\n\n...\n\nYou really don't know what you expected.\n\n[[Look at the fountain->Fountain]] \n[[Explore the garden->Mansion Garden]] ",
+      "links": [
+        {
+          "name": "Look at the fountain",
+          "link": "Fountain",
+          "pid": "27"
+        },
+        {
+          "name": "Explore the garden",
+          "link": "Mansion Garden",
+          "pid": "15"
+        }
+      ],
+      "name": "Drinking Dirty Water",
+      "pid": "50",
+      "position": {
+        "x": "1968",
+        "y": "774"
+      }
+    },
+    {
+      "text": "You feel around in the fountain's water, running your hands along the sides and edges. You feel a small bump portrude, and as you run your hand over it, it clicks in.\n\nSuddenly, the ground begins to vibrate. You hear a loud sound come from the right side of the courtyard.\n\n[[Investigate the sound->Outside the Shed]]\n[[Ignore it, and explore somewhere else->Mansion Garden]]",
+      "links": [
+        {
+          "name": "Investigate the sound",
+          "link": "Outside the Shed",
+          "pid": "52"
+        },
+        {
+          "name": "Ignore it, and explore somewhere else",
+          "link": "Mansion Garden",
+          "pid": "15"
+        }
+      ],
+      "name": "Switch",
+      "pid": "51",
+      "position": {
+        "x": "1801",
+        "y": "973"
+      }
+    },
+    {
+      "text": "You walk over to the right side of the courtyard. The only thing here is the shed, and you deduce that it must contain the source of the loud sound.\n\n[[Enter the shed->In the Shed]]",
+      "links": [
+        {
+          "name": "Enter the shed",
+          "link": "In the Shed",
+          "pid": "53"
+        }
+      ],
+      "name": "Outside the Shed",
+      "pid": "52",
+      "position": {
+        "x": "1570",
+        "y": "967"
+      }
+    },
+    {
+      "text": "You enter the shed. The floors are wooden, and it's quite spacious. To the right is an empty tool board. Above the tool board is a brass sign that says -OPENED-. A few feet away on the floor is a small door handle.\n\n[[Explore the shed->In the Shed (2)]]\n[[Examine the door handle->Handle Examination]]",
+      "links": [
+        {
+          "name": "Explore the shed",
+          "link": "In the Shed (2)",
+          "pid": "54"
+        },
+        {
+          "name": "Examine the door handle",
+          "link": "Handle Examination",
+          "pid": "55"
+        }
+      ],
+      "name": "In the Shed",
+      "pid": "53",
+      "position": {
+        "x": "1393",
+        "y": "964"
+      }
+    },
+    {
+      "text": "You walk further into the shed. There's a plastic bin labelled -Fountain-. There's some sort of burlap bag inside. There's no door on this side of the shed.\n\n[[Go back->In the Shed (3)]] ",
+      "links": [
+        {
+          "name": "Go back",
+          "link": "In the Shed (3)",
+          "pid": "56"
+        }
+      ],
+      "name": "In the Shed (2)",
+      "pid": "54",
+      "position": {
+        "x": "1599",
+        "y": "781"
+      }
+    },
+    {
+      "text": "You kneel down and look at the handle. It seems to be brass, and looks to be in the same condition as the gates.\n\n[[Pull on the handle->Underground Entrance]]\n[[Return to the shed->In the Shed]] ",
+      "links": [
+        {
+          "name": "Pull on the handle",
+          "link": "Underground Entrance",
+          "pid": "57"
+        },
+        {
+          "name": "Return to the shed",
+          "link": "In the Shed",
+          "pid": "53"
+        }
+      ],
+      "name": "Handle Examination",
+      "pid": "55",
+      "position": {
+        "x": "1269",
+        "y": "963"
+      }
+    },
+    {
+      "text": "You enter the shed. The floors are wooden, and it's quite spacious. To the right is an empty tool board. Above the tool board is a brass sign that says -OPENED-. A few feet away on the floor is a small door handle.\n\n[[Examine the door handle->Handle Examination]]\n[[Leave the shed->Right Field]] ",
+      "links": [
+        {
+          "name": "Examine the door handle",
+          "link": "Handle Examination",
+          "pid": "55"
+        },
+        {
+          "name": "Leave the shed",
+          "link": "Right Field",
+          "pid": "20"
+        }
+      ],
+      "name": "In the Shed (3)",
+      "pid": "56",
+      "position": {
+        "x": "1396",
+        "y": "815"
+      }
+    },
+    {
+      "text": "You pull on the handle, and the wooden tile it is attached to swings upward. You can see a gold colored ladder that descends into some sort of underground passage. The bottom is well lit enough to see from the top.\n\n[[Climb down the ladder->Ladder Descent]]\n[[Close the trapdoor->In the Shed (3)]] ",
+      "links": [
+        {
+          "name": "Climb down the ladder",
+          "link": "Ladder Descent",
+          "pid": "58"
+        },
+        {
+          "name": "Close the trapdoor",
+          "link": "In the Shed (3)",
+          "pid": "56"
+        }
+      ],
+      "name": "Underground Entrance",
+      "pid": "57",
+      "position": {
+        "x": "1146",
+        "y": "966"
+      }
+    },
+    {
+      "text": "You step onto the ladder and begin your descent. Parts of the ladder are oddly grimy, and have some sort of brown and black discoloration to them.\n\nYou reach the bottom of the ladder and find yourself in some sort of underground passage. There are lightbulbs strung on the sides of the wall.\n\n[[Continue down the passage->Tunnel Entrance]]",
+      "links": [
+        {
+          "name": "Continue down the passage",
+          "link": "Tunnel Entrance",
+          "pid": "59"
+        }
+      ],
+      "name": "Ladder Descent",
+      "pid": "58",
+      "position": {
+        "x": "1148",
+        "y": "1084"
+      }
+    },
+    {
+      "text": "Continuing down the passage, you find yourself in a large square room. There are tables covered in books and papers with strange markings. Graduated cylinders filled with different shades of silver and gold liquids are on every table.\n\n[[Examine the books->Books]]\n[[Examine the liquids->Liquids]]\n[[Continue on->Voices]]\n",
+      "links": [
+        {
+          "name": "Examine the books",
+          "link": "Books",
+          "pid": "60"
+        },
+        {
+          "name": "Examine the liquids",
+          "link": "Liquids",
+          "pid": "61"
+        },
+        {
+          "name": "Continue on",
+          "link": "Voices",
+          "pid": "62"
+        }
+      ],
+      "name": "Tunnel Entrance",
+      "pid": "59",
+      "position": {
+        "x": "1147",
+        "y": "1211"
+      }
+    },
+    {
+      "text": "You pick up one of the books on a nearby table. The title reads -Gold and Alchemy-.\n\n[[Read the book->Alchemy Info]]\n[[Examine the liquids->Liquids]]\n[[Continue on->Voices]]",
+      "links": [
+        {
+          "name": "Read the book",
+          "link": "Alchemy Info",
+          "pid": "63"
+        },
+        {
+          "name": "Examine the liquids",
+          "link": "Liquids",
+          "pid": "61"
+        },
+        {
+          "name": "Continue on",
+          "link": "Voices",
+          "pid": "62"
+        }
+      ],
+      "name": "Books",
+      "pid": "60",
+      "position": {
+        "x": "1151",
+        "y": "1355"
+      }
+    },
+    {
+      "text": "You examine the multiple test tubes, graduated cylinders, and bunsen burners on the table. They're labelled, from left to right reading reading -Hg-, -Cu-, -Zn-, -Fe-, -C-,-Au-,-Ag-.\n\n[[Pick up a tube->Hot]]\n[[Examine the books->Books]] \n[[Continue on->Voices]] ",
+      "links": [
+        {
+          "name": "Pick up a tube",
+          "link": "Hot",
+          "pid": "64"
+        },
+        {
+          "name": "Examine the books",
+          "link": "Books",
+          "pid": "60"
+        },
+        {
+          "name": "Continue on",
+          "link": "Voices",
+          "pid": "62"
+        }
+      ],
+      "name": "Liquids",
+      "pid": "61",
+      "position": {
+        "x": "1403",
+        "y": "1214"
+      }
+    },
+    {
+      "text": "You decide to continue down the passage. It's as well lit as the tunnel, and the floor here is covered with some sort of expensive looking rug. \n\nThe passage is much wider than the one from the ladder, and the walls have divets from the floor to the ceiling, probably about 8 feet tall and 3 feet wide. Within these divets are what appears to be fancy brass statues in the same pose, although they're covered in what might be dirt or grime. \n\nAbove the statues are nameplates, probably saying which figure the statue is based on. The nameplates are made of the same material as the statues. You begin to take note of the names as you walk. \n\n-Joseph Bellfrey-,-Elizabeth Bellfrey-,-John Bellfrey-,-Edmund Bellfrey-,-Marie Bellfrey-,-Charles Taylor-, -Margaret Taylor-. You feel like you recognize these names, and begin to feel a sense of dread. You can't explain why. \n\nHowever, something is strange. Between the statue of -Marie Bellfrey- and -Charles Taylor- is an empty space in the wall. There's a nameplate above the divet that reads -Henry Bellfrey-. You feel your heart begin to race, and your body shakes. You don't know why, but your vision is spinning.\n\n[[Continue down the passage->A Lever?]]",
+      "links": [
+        {
+          "name": "Continue down the passage",
+          "link": "A Lever?",
+          "pid": "67"
+        }
+      ],
+      "name": "Voices",
+      "pid": "62",
+      "position": {
+        "x": "947",
+        "y": "1451"
+      }
+    },
+    {
+      "text": "You flip through the book, looking at the various circles and symbols on each page. Briefly skimming through passages, you note the ritualistic nature of the writing. Eventually, you come to the end of the book, and a piece of folded up paper falls out.\n\n[[Examine the paper->Blueprints]]\n[[Examine the liquids->Liquids]]\n[[Continue on->Voices]]",
+      "links": [
+        {
+          "name": "Examine the paper",
+          "link": "Blueprints",
+          "pid": "65"
+        },
+        {
+          "name": "Examine the liquids",
+          "link": "Liquids",
+          "pid": "61"
+        },
+        {
+          "name": "Continue on",
+          "link": "Voices",
+          "pid": "62"
+        }
+      ],
+      "name": "Alchemy Info",
+      "pid": "63",
+      "position": {
+        "x": "1151",
+        "y": "1512"
+      }
+    },
+    {
+      "text": "You reach to pick up a test tube, but it's extremely hot to the touch. In fact, they all are. \n\n[[Examine the books->Books]] \n[[Continue on->Voices]] ",
+      "links": [
+        {
+          "name": "Examine the books",
+          "link": "Books",
+          "pid": "60"
+        },
+        {
+          "name": "Continue on",
+          "link": "Voices",
+          "pid": "62"
+        }
+      ],
+      "name": "Hot",
+      "pid": "64",
+      "position": {
+        "x": "1396",
+        "y": "1353"
+      }
+    },
+    {
+      "text": "You unfold the piece of white paper, and it appears to be quite large. On it is what appears to be a sketch of a large house. At the top, it bold letters, reads -Bellfrey Alchemic Society Headquarters-. \n\nUpon further examination, you find that the section labelled -Bait Field- resembles the layout of the courtyard of the mansion. \n\nOn the back of the paper, the words -Underground Testing and Production Facilities- are over a section that looks quite familiar to your current location. \n\nThe tunnel in front of you leads to a room labelled -Mortal Soul Purification Chamber-. There's a passage leading out from there towards the edge of the paper that reads -Air Intake-.\n\n[[Examine the liquids->Liquids]]\n[[Continue on->Voices]]\n[[Take the blueprints and run->To Be Continued Ending]]",
+      "links": [
+        {
+          "name": "Examine the liquids",
+          "link": "Liquids",
+          "pid": "61"
+        },
+        {
+          "name": "Continue on",
+          "link": "Voices",
+          "pid": "62"
+        },
+        {
+          "name": "Take the blueprints and run",
+          "link": "To Be Continued Ending",
+          "pid": "66"
+        }
+      ],
+      "name": "Blueprints",
+      "pid": "65",
+      "position": {
+        "x": "1151",
+        "y": "1646"
+      }
+    },
+    {
+      "text": "Shaken to your core by how ridiculous and dangerous this all seems, you decide to take the blueprints and get out of here while you still can.\n\nYou climb back up the ladder, through the shed trapdoor, and look around. The front gate has been opened since you entered the shed.\n\nWalking through the front gate, you can't help but feel a sense of uneasiness. \n\nYou feel that your exploration of the Bellfrey mansion might have ended today, but that it isn't truly finished just yet.\n\nY O U   G O T   -TO BE CONTINUED-   E N D I N G .",
+      "name": "To Be Continued Ending",
+      "pid": "66",
+      "position": {
+        "x": "1149",
+        "y": "1761"
+      },
+      "tags": [
+        "Ending"
+      ]
+    },
+    {
+      "text": "You regain your composure, and continue down the passage. It's full of empty divets all the way down. After a minute or so of walking, you see a large lever on the wall. You can also see what appears to be a door in the distance.\n\n[[Pull the lever->You hear a scream]]\n[[Continue walking->Outside the Mysterious Door]]",
+      "links": [
+        {
+          "name": "Pull the lever",
+          "link": "You hear a scream",
+          "pid": "68"
+        },
+        {
+          "name": "Continue walking",
+          "link": "Outside the Mysterious Door",
+          "pid": "69"
+        }
+      ],
+      "name": "A Lever?",
+      "pid": "67",
+      "position": {
+        "x": "818",
+        "y": "1455"
+      }
+    },
+    {
+      "text": "You go to pull the lever. The handle is wood, but the base is made of that same grimy brass. Just as you start to pull it, you hear a painful scream come from the direction of the door. You stop only a little bit into pulling the lever, but you notice that the passage looks a bit dimmer now than a second ago.\n\nWith everything you've seen recently, you can't help but investigate in the direction of the scream.\n\n[[Investigate->Keyhole Peek]]",
+      "links": [
+        {
+          "name": "Investigate",
+          "link": "Keyhole Peek",
+          "pid": "70"
+        }
+      ],
+      "name": "You hear a scream",
+      "pid": "68",
+      "position": {
+        "x": "818",
+        "y": "1335"
+      }
+    },
+    {
+      "text": "You walk to the end of the passage, only a few feet away from the door. You reach for the unsurprisingly brass door knob, and as you're beginning to turn it a painful scream comes from behind the door. \n\n[[Investigate->Keyhole Peek]]",
+      "links": [
+        {
+          "name": "Investigate",
+          "link": "Keyhole Peek",
+          "pid": "70"
+        }
+      ],
+      "name": "Outside the Mysterious Door",
+      "pid": "69",
+      "position": {
+        "x": "696",
+        "y": "1456"
+      }
+    },
+    {
+      "text": "After that scream, you're reluctant to open the door. However, you notice that you can peer through the brass door knob's keyhole. \n\nIn the room is what appears to be several individuals dressed in gold, creased robes. They're encircling an individual tied to a large slab of wood. The individual has a bag over their head.\n\nOne of the individuals begins to pour a goldish liquid over the individual's hand. It appears to be similar to the one in the previous room. The individual screams again, confirming them as the person you heard before. The voice sounds eerily familiar, but you can't determine where you've heard it before.\n\n[[Open the door and save the individual->The Reckless Statue Ending]]\n[[Create a diversion->Lever Diversion]]\n[[Run away->Coward Ending]]",
+      "links": [
+        {
+          "name": "Open the door and save the individual",
+          "link": "The Reckless Statue Ending",
+          "pid": "71"
+        },
+        {
+          "name": "Create a diversion",
+          "link": "Lever Diversion",
+          "pid": "72"
+        },
+        {
+          "name": "Run away",
+          "link": "Coward Ending",
+          "pid": "73"
+        }
+      ],
+      "name": "Keyhole Peek",
+      "pid": "70",
+      "position": {
+        "x": "571",
+        "y": "1457"
+      }
+    },
+    {
+      "text": "Your heroic instinct taking over, you throw the door open and realize you have no idea what to do. All you can think about is saving that individual. You can't explain it, but you feel a strong connection and desire to protect them.\n\nHowever, the gold robed individuals far outnumber you, and they all rush you. You manage to throw a couple of them off of you, but they just keep coming. They manage to restrain you, and you feel a dull pain on the back of your skull. You scream in pain, and pass out.\n\n\nWhen you come to, you see the gold robed individuals encircling you. You try and lunge out again, but your arms and legs have been tied to something. You look and see that you're on the same wooden slab as the other individual was.\n\nYou shout for help and struggle, but you can't budge. You feel something go over your head, and your vision goes dark. \n\nYou feel a sharp, hot pain on your right hand, and let out a painful scream. \n\nOne of the voices says something to you.\n\n\"Finally, we've completed the entire Bellfrey collection. Don't worry, Henry. You'll be joining your family soon.\"\n\n\nY O U   G O T   -THE RECKLESS STATUE-   E N D I N G .",
+      "name": "The Reckless Statue Ending",
+      "pid": "71",
+      "position": {
+        "x": "451",
+        "y": "1337"
+      }
+    },
+    {
+      "text": "You realize that in order to rescue the person inside, you can't just rush in without a plan. You think back to the lever you saw earlier, and realize you've got one feasible option.\n\nYou rush back to the lever, and taking a deep breath, use your weight to pull it down as hard as you can. The lights in the tunnel and the room switch off immediately. \n\nHowever, you may have pulled the lever a bit too hard, as you find yourself sitting on the ground with the handle still in your grip, snapped in half. You don't have much time.\n\n[[Hide in a divet->Hiding Place]]",
+      "links": [
+        {
+          "name": "Hide in a divet",
+          "link": "Hiding Place",
+          "pid": "74"
+        }
+      ],
+      "name": "Lever Diversion",
+      "pid": "72",
+      "position": {
+        "x": "568",
+        "y": "1575"
+      }
+    },
+    {
+      "text": "Fear overtaking your body, you begin to run as fast as you can away from the door. The individual continues to screaming, but as you run further and further away, it begins to become distant. \n\nYou climb back up the ladder, exiting the shed, and sprinting out the now opened brass gates.\n\nYou don't pause to think about who opened the gates, only thinking about escaping and saving yourself.\n\nYou manage to escape from the mansion, but the scream of the individual in the room refuses to leave your mind. It sounds so familiar but so distant, as if it's something that shouldn't exist.\n\nYou feel guilty and ashamed that you couldn't do anything to save that individual, but there's nothing you could do, right? \n\nAt least you got out alive.\n\n\nY O U   G O T   -COWARD-   E N D I N G .",
+      "name": "Coward Ending",
+      "pid": "73",
+      "position": {
+        "x": "573",
+        "y": "1338"
+      }
+    },
+    {
+      "text": "Thinking fast, you hide in one of the empty wall divets near the door. You hear it swing open, and the sound of flurried footsteps running towards the direction of the lever. Once the footsteps are no longer coming from inside the door, you rush over to the individual on the slab. \n\nLoosening their restraints, the individual is able to walk. However, once they step down, the lights come back on, and you can hear running and yelling coming from down the hall. You don't have much time.\n\n[[Look for an escape->Air Intake Escape]]\n[[Try and fend them off->The Hopeless Fighter Ending]]",
+      "links": [
+        {
+          "name": "Look for an escape",
+          "link": "Air Intake Escape",
+          "pid": "75"
+        },
+        {
+          "name": "Try and fend them off",
+          "link": "The Hopeless Fighter Ending",
+          "pid": "76"
+        }
+      ],
+      "name": "Hiding Place",
+      "pid": "74",
+      "position": {
+        "x": "566",
+        "y": "1692"
+      }
+    },
+    {
+      "text": "Examining the room, you see what looks like a small exit in the wall. Thinking fast, you grab the person you rescued and make a break for it. \n\nThe tunnel is about 4 feet tall, and you shuffle as fast as you can while crouched over, holding the left wrist of the rescued individual.\n\nEventually, you come out in what looks like a ravine on the side of the mansion.\n\n[[Climb out->Climbing Decision]]\n[[Keep running->Escape and Memories]]",
+      "links": [
+        {
+          "name": "Climb out",
+          "link": "Climbing Decision",
+          "pid": "77"
+        },
+        {
+          "name": "Keep running",
+          "link": "Escape and Memories",
+          "pid": "78"
+        }
+      ],
+      "name": "Air Intake Escape",
+      "pid": "75",
+      "position": {
+        "x": "491",
+        "y": "1842"
+      }
+    },
+    {
+      "text": "Seeing no way out other than fighting, you grip the lever handle tightly, and stand in front of the individual you rescued.\n\nThe gold robed mob rushes through the door, and using the snapped lever like a bat, you begin to take swings at your attackers. You take down a few, but it simply is too much.\n\nThe gold robed individuals surround you, and you feel a dull pain on the back of your head, passing out immediately.\n\nWhen you come to, you see the gold robed individuals encircling you. You try and lunge out again, but your arms and legs have been tied to something. You look and see that you're on the same wooden slab as the other individual was.\n\nYou shout for help and struggle, but you can't budge. You feel something go over your head, and your vision goes dark. \n\nYou feel a sharp, hot pain on your right hand, and let out a painful scream. \n\nOne of the voices says something to you.\n\n\"Finally, we've completed the entire Bellfrey collection. Don't worry, Henry. You'll be joining your family soon.\"\n\n\nY O U   G O T   -THE HOPELESS FIGHTER-   E N D I N G .",
+      "name": "The Hopeless Fighter Ending",
+      "pid": "76",
+      "position": {
+        "x": "698",
+        "y": "1845"
+      }
+    },
+    {
+      "text": "Reasoning that you could climb out of the ravine easily, you see that as your best escape route. However, you have the individual with you, and notice that their right hand is covered in grimy brass. There's no way you can both escape this way.\n\n[[Try a different path->Escape and Memories]] \n[[Leave the individual behind->Waste Of Time Ending]]",
+      "links": [
+        {
+          "name": "Try a different path",
+          "link": "Escape and Memories",
+          "pid": "78"
+        },
+        {
+          "name": "Leave the individual behind",
+          "link": "Waste Of Time Ending",
+          "pid": "79"
+        }
+      ],
+      "name": "Climbing Decision",
+      "pid": "77",
+      "position": {
+        "x": "416",
+        "y": "1992"
+      }
+    },
+    {
+      "text": "Running away from the mansion, you come to the end of the ravine, where there are man made dirt steps for some reason.\n\nLeading the individual still by the hand, you sprint away into the forests, with the familiar poplar trees of your youth. \n\nHold on, the poplar trees of your youth?\n\n\n[[Remember everything ->True Ending]]",
+      "links": [
+        {
+          "name": "Remember everything ",
+          "link": "True Ending",
+          "pid": "80"
+        }
+      ],
+      "name": "Escape and Memories",
+      "pid": "78",
+      "position": {
+        "x": "566",
+        "y": "1992"
+      }
+    },
+    {
+      "text": "Deciding that you suddenly don't really care enough about the individual you bravely rescued, you begin to climb out of the ravine. \n\nScaling the 20 foot rock wall, you come to the top, and decide to book it away from the mansion into the forest, escaping your presumed gold robe pursuers.\n\n\nY O U   G O T   -WHAT WAS THE POINT OF ALL THAT THEN?-   E N D I N G .",
+      "name": "Waste Of Time Ending",
+      "pid": "79",
+      "position": {
+        "x": "354",
+        "y": "1849"
+      }
+    },
+    {
+      "text": "Your name is Henry Bellfrey. You were the son of a wealthy businessman and a noble lady, Joseph and Elizabeth Bellfrey respectively. You had two older brothers and and older sister, John, Edmund, and Marie Bellfrey. \n\nYou were the youngest child, and you had a passion for exploring, even if it was just to see what the view from the top of the poplar trees were.\n\nYou also remember that you had a live in butler and maid who were married. You can't remember their first names very well, because you always called them Mr. and Mrs. Taylor. \n\nYou also remember they also had a son, Arthur Taylor. You feel a welling up of emotions, as you can recall that was the name of your best friend who would join you in your explorations and childhood adventures.\n\nThe mansion was old by the time you were born, and you remember the fights about money between your parents.\n\nYou then recall the passage, and the nameplates, the statues, and the same odd pose they were all in. You remember the night that you came home and everyone was gone, and you remember the night you and Arthur left to look for them. \n\nYou remember the gold robes, and you remember Arthur saving you by leading them away.\n\nYou remember living in the forest, remember not eating for days, just sitting on the top of the poplar trees and waiting for everything to fix itself. \n\nYou remember walking up to the closed mansion gates, and passing out in front of them.\n\nYou remember waking up so exhausted that you couldn't remember anything.\n\nYou walk over to the individual you rescued with the burlap bag over their head, and you pull it off.\n\nA familiar voice begins to speak.\n\n\"You know, I never gave up hope that you would come and get me. You just can't resist sticking your nose everywhere it doesn't belong. I guess this makes us even then, Henry\".\n\nYou both begin to laugh, and tears stream down your face.\n\nY O U   G O T   -THE EXPLORER AND SAVIOR-   E N D I N G .",
+      "name": "True Ending",
+      "pid": "80",
+      "position": {
+        "x": "567",
+        "y": "2123"
+      }
+    },
+    {
+      "text": "Continuing on, you finally reach the end of the tunnel where the light is. You can see an empty room, with a large wooden slab to the left of the tunnel's exit.\n\n[[Explore the room->Unlucky Explorer Ending]]\n[[Turn back->Ravine (Lower) (3)]] ",
+      "links": [
+        {
+          "name": "Explore the room",
+          "link": "Unlucky Explorer Ending",
+          "pid": "82"
+        },
+        {
+          "name": "Turn back",
+          "link": "Ravine (Lower) (3)",
+          "pid": "41"
+        }
+      ],
+      "name": "An Odd Room",
+      "pid": "81",
+      "position": {
+        "x": "3554",
+        "y": "784"
+      }
+    },
+    {
+      "text": "You drop down into the room, and begin to examine the various pieces of chemistry equipment and books strewn across the table. You come across a list with mostly crossed out names. There are two at the bottom not yet crossed out: Arthur and Henry. As you put the list down, the door opens, and gold robed men carrying an individual with a bag over their head enter.\n\nOne of them speaks, saying \"Well, I guess this must be our lucky day. We'll be all finished with the carrying out his orders today, gentlemen.\"\n\nThe gold robed individuals surround you, and you feel a dull pain on the back of your head, passing out immediately.\n\nWhen you come to, you see the gold robed individuals encircling you. You try and lunge out again, but your arms and legs have been tied to something. You look and see that you're on the same wooden slab as the other individual was.\n\nYou shout for help and struggle, but you can't budge. You feel something go over your head, and your vision goes dark. \n\nYou feel a sharp, hot pain on your right hand, and let out a painful scream. \n\nOne of the voices says something to you.\n\n\"Finally, we've completed the entire Bellfrey collection. Don't worry, Henry. You'll be joining your family soon.\"\n\n\nY O U   G O T   -THE UNLUCKY EXPLORER-   E N D I N G .",
+      "name": "Unlucky Explorer Ending",
+      "pid": "82",
+      "position": {
+        "x": "3552",
+        "y": "893"
+      }
+    }
+  ],
+  "name": "Mansion Exploration",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.11",
+  "ifid": "E502C020-E5FC-469E-8A27-BAD3A95B095E"
+}
